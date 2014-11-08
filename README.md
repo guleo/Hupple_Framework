@@ -9,6 +9,7 @@ Hupple 后台Web框架
 ## 配置Maven依赖  
  * spring  
  ```xml
+ <dependencies>
  	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-context</artifactId>
@@ -25,6 +26,7 @@ Hupple 后台Web框架
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-jdbc</artifactId>
 	</dependency>
+ </dependencies>
  ```
  
 ## 配置Web.xml
