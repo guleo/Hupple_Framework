@@ -10,7 +10,7 @@ Hupple 后台Web框架
  * spring  
  ```xml
  <dependencies>
- 	<dependency>
+     <dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-context</artifactId>
 	</dependency>
@@ -28,6 +28,84 @@ Hupple 后台Web框架
 	</dependency>
  </dependencies>
  ```
+* struts
+ ```xml
+    <dependency>
+		<groupId>org.apache.struts</groupId>
+		<artifactId>struts2-core</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.struts</groupId>
+		<artifactId>struts2-spring-plugin</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.struts</groupId>
+		<artifactId>struts2-json-plugin</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.struts</groupId>
+		<artifactId>struts2-convention-plugin</artifactId>
+	</dependency>
+ ```
+* junit
+ ```xml
+    <dependency>
+    		<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+	</dependency>
+ ```
+*log4j和slf4j
+```xml
+    <dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+	</dependency>
+```
+* Spring annotation
+```xml
+    <dependency>
+    		<groupId> org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+	</dependency>
+```
+* 数据库驱动和数据源
+```xml
+    <dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>ojdbc14</artifactId>
+	</dependency>
+
+	<dependency>
+		<groupId>commons-dbcp</groupId>
+		<artifactId>commons-dbcp</artifactId>
+	</dependency>
+ ```
+ *jetty嵌入式web容器插件
+ ```xml
+     <build>
+    	<plugins>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<configuration>
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<connectors>
+						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+							<port>8099</port>
+							<maxIdleTime>60000</maxIdleTime>
+						</connector>
+					</connectors>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+ ```
+
  
 ## 配置Web.xml
 
