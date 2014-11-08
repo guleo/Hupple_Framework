@@ -86,23 +86,17 @@ Hupple 后台Web框架
  ```
  * jetty嵌入式web容器插件
  ```xml
-    <build>
-    	<plugins>
-			<plugin>
-				<groupId>org.mortbay.jetty</groupId>
-				<artifactId>maven-jetty-plugin</artifactId>
-				<configuration>
-					<scanIntervalSeconds>10</scanIntervalSeconds>
-					<connectors>
-						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-							<port>8099</port>
-							<maxIdleTime>60000</maxIdleTime>
-						</connector>
-					</connectors>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+   	<groupId>org.mortbay.jetty</groupId>
+	<artifactId>maven-jetty-plugin</artifactId>
+	<configuration>
+		<scanIntervalSeconds>10</scanIntervalSeconds>
+		<connectors>
+			<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+				<port>8099</port>
+				<maxIdleTime>60000</maxIdleTime>
+			</connector>
+		</connectors>
+	</configuration>
  ```
 
  
