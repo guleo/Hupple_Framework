@@ -9,28 +9,27 @@ Hupple 后台Web框架
 ## 配置Maven依赖  
  * spring  
  ```xml
- <dependencies>
-     <dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-context</artifactId>
+    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
 	</dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-core</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-beans</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-jdbc</artifactId>
-	</dependency>
- </dependencies>
  ```
 * struts
  ```xml
-    	<dependency>
+    <dependency>
 		<groupId>org.apache.struts</groupId>
 		<artifactId>struts2-core</artifactId>
 	</dependency>
@@ -49,7 +48,7 @@ Hupple 后台Web框架
  ```
 * junit
  ```xml
-    	<dependency>
+    <dependency>
     		<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
@@ -57,20 +56,20 @@ Hupple 后台Web框架
  ```
 * log4j和slf4j
 ```xml
-    	<dependency>
-		<groupId>org.slf4j</groupId>
-		<artifactId>slf4j-log4j12</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>log4j</groupId>
-		<artifactId>log4j</artifactId>
+    <dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
 	</dependency>
 ```
 * Spring annotation
 ```xml
-    	<dependency>
+    <dependency>
     		<groupId> org.aspectj</groupId>
-		<artifactId>aspectjweaver</artifactId>
+			<artifactId>aspectjweaver</artifactId>
 	</dependency>
 ```
 * 数据库驱动和数据源
