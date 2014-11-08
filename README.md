@@ -4,13 +4,28 @@ Hupple 后台Web框架
 
 ## 概述
 
-## 依赖的开源框架和项目
- > *  Maven
- > *  Spring
- -  spring-core
- - spring-beans  
- - spring-jdbc  
- > *  Struts
+待补充
+
+## 配置Maven依赖
+ * spring
+ ```xml
+ 	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-beans</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-jdbc</artifactId>
+	</dependency>
+ ```
  
 ## 配置Web.xml
 
