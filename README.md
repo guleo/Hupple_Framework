@@ -86,7 +86,7 @@ Hupple 后台Web框架
  ```
  * jetty嵌入式web容器插件
  ```xml
-     <build>
+    <build>
     	<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
