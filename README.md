@@ -6,8 +6,8 @@ Hupple 后台Web框架
 
 待补充
 
-## 配置Maven依赖
- * spring
+## 配置Maven依赖  
+ * spring  
  ```xml
  	<dependency>
 		<groupId>org.springframework</groupId>
