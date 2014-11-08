@@ -23,5 +23,22 @@ Hupple 后台Web框架
 	
 </web-app>
 ```
+* 添加Strust2过滤器
+```xml
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+```
+* 添加Spring监听器
+```xml
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+```
 
 Hupple_Framework Based on J2EE by TcXiaoyi 
