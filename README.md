@@ -30,7 +30,7 @@ Hupple 后台Web框架
  ```
 * struts
  ```xml
-    <dependency>
+    	<dependency>
 		<groupId>org.apache.struts</groupId>
 		<artifactId>struts2-core</artifactId>
 	</dependency>
@@ -49,28 +49,28 @@ Hupple 后台Web框架
  ```
 * junit
  ```xml
-    <dependency>
+    	<dependency>
     		<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 	</dependency>
  ```
-*log4j和slf4j
+* log4j和slf4j
 ```xml
-    <dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
+    	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
 	</dependency>
 ```
 * Spring annotation
 ```xml
-    <dependency>
+    	<dependency>
     		<groupId> org.aspectj</groupId>
-			<artifactId>aspectjweaver</artifactId>
+		<artifactId>aspectjweaver</artifactId>
 	</dependency>
 ```
 * 数据库驱动和数据源
@@ -85,7 +85,7 @@ Hupple 后台Web框架
 		<artifactId>commons-dbcp</artifactId>
 	</dependency>
  ```
- *jetty嵌入式web容器插件
+ * jetty嵌入式web容器插件
  ```xml
      <build>
     	<plugins>
